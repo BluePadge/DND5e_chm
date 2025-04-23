@@ -1,7 +1,7 @@
 <!-- coding: gbk --><!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>È«À©È«·¨Êõ</title>
+<title>å…¨æ‰©å…¨æ³•æœ¯</title>
 <meta name="GENERATOR" content="WinCHM">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style>
@@ -145,66 +145,66 @@ function toggleVisibility() {
 			var div = document.getElementById("filterDiv");
 			var btn = document.getElementById("toggleBtn");
 			var isHidden = (div.style.display === "none") || 
-                  (div.currentStyle && div.currentStyle.display === "none") || // IE×¨Êô·½·¨
-                  (div.offsetHeight === 0); // Í¨¹ıÊµ¼ÊäÖÈ¾¸ß¶ÈÅĞ¶Ï
+                  (div.currentStyle && div.currentStyle.display === "none") || // IEä¸“å±æ–¹æ³•
+                  (div.offsetHeight === 0); // é€šè¿‡å®é™…æ¸²æŸ“é«˜åº¦åˆ¤æ–­
 			if (isHidden) {
 				div.style.display = "block";
-				btn.innerText = "Òş²ØÉ¸Ñ¡";
+				btn.innerText = "éšè—ç­›é€‰";
 			} else {
 				div.style.display = "none";
-				btn.innerText = "ÏÔÊ¾É¸Ñ¡";
+				btn.innerText = "æ˜¾ç¤ºç­›é€‰";
 			}
 		}
 </script>
 </head>
 <body>
 <div style="MARGIN-BOTTOM: 20px; MARGIN-LEFT: 20px">
-<input id="input" name="q" placeholder="ËÑË÷..." ><button onclick="search()">ËÑË÷</button><button style="MARGIN-LEFT: 5px" onclick="toggleVisibility()" id="toggleBtn">Òş²ØÉ¸Ñ¡</button></div>
+<input id="input" name="q" placeholder="æœç´¢..." ><button onclick="search()">æœç´¢</button><button style="MARGIN-LEFT: 5px" onclick="toggleVisibility()" id="toggleBtn">éšè—ç­›é€‰</button></div>
 <div id="filterDiv" style="MARGIN-LEFT: 20px">
-<b>ÌØÊâ£º</b>
-<button onclick="select_all('special')">È«Ñ¡</button>
-<input type="checkbox" id="sp0" name="special" value="×¨×¢" checked><label for="sp0">C</label>
-<input type="checkbox" id="sp1" name="special" value="ÒÇÊ½" checked><label for="sp1">R</label>
-<input type="checkbox" id="sp2" name="special" value="ÑÔÓï" checked><label for="sp2">V</label>
-<input type="checkbox" id="sp3" name="special" value="×ËÊÆ" checked><label for="sp3">S</label>
-<input type="checkbox" id="sp4" name="special" value="²ÄÁÏ" checked><label for="sp4">M</label>
-<input type="checkbox" id="sp5" name="special" value="¼ÛºÄ" checked><label for="sp5">M*</label>
-<br><b>»·½×£º</b>
-<button onclick="select_all('level')">È«Ñ¡</button>
-<input type="checkbox" id="le0" name="level" value="Ï··¨" checked><label for="le0">Áã</label>
-<input type="checkbox" id="le1" name="level" value="Ò»»·" checked><label for="le1">Ò»</label>
-<input type="checkbox" id="le2" name="level" value="¶ş»·" checked><label for="le2">¶ş</label>
-<input type="checkbox" id="le3" name="level" value="Èı»·" checked><label for="le3">Èı</label>
-<input type="checkbox" id="le4" name="level" value="ËÄ»·" checked><label for="le4">ËÄ</label>
-<input type="checkbox" id="le5" name="level" value="Îå»·" checked><label for="le5">Îå</label>
-<input type="checkbox" id="le6" name="level" value="Áù»·" checked><label for="le6">Áù</label>
-<input type="checkbox" id="le7" name="level" value="Æß»·" checked><label for="le7">Æß</label>
-<input type="checkbox" id="le8" name="level" value="°Ë»·" checked><label for="le8">°Ë</label>
-<input type="checkbox" id="le9" name="level" value="¾Å»·" checked><label for="le9">¾Å</label>
-<br><b>Ñ§ÅÉ£º</b>
-<button onclick="select_all('school')">È«Ñ¡</button>
-<input type="checkbox" id="sc1" name="school" value="·À»¤" checked><label for="sc1">·À»¤</label>
-<input type="checkbox" id="sc2" name="school" value="Öä·¨" checked><label for="sc2">Öä·¨</label>
-<input type="checkbox" id="sc3" name="school" value="Ô¤ÑÔ" checked><label for="sc3">Ô¤ÑÔ</label>
-<input type="checkbox" id="sc4" name="school" value="»ó¿Ø" checked><label for="sc4">»ó¿Ø</label>
-<input type="checkbox" id="sc5" name="school" value="ËÜÄÜ" checked><label for="sc5">ËÜÄÜ</label>
-<input type="checkbox" id="sc6" name="school" value="»ÃÊõ" checked><label for="sc6">»ÃÊõ</label>
-<input type="checkbox" id="sc7" name="school" value="ËÀÁé" checked><label for="sc7">ËÀÁé</label>
-<input type="checkbox" id="sc8" name="school" value="±ä»¯" checked><label for="sc8">±ä»¯</label>
-<br><b>Ö°Òµ£º</b>
-<button onclick="select_all('class')">È«Ñ¡</button>
-<input type="checkbox" id="cl1" name="class" value="ÆæĞµÊ¦" checked><label for="cl1">ÆæĞµÊ¦</label>
-<input type="checkbox" id="cl2" name="class" value="Ò÷ÓÎÊ«ÈË" checked><label for="cl2">Ò÷ÓÎÊ«ÈË</label>
-<input type="checkbox" id="cl3" name="class" value="ÄÁÊ¦" checked><label for="cl3">ÄÁÊ¦</label>
-<input type="checkbox" id="cl4" name="class" value="µÂÂ³ÒÁ" checked><label for="cl4">µÂÂ³ÒÁ</label>
-<input type="checkbox" id="cl5" name="class" value="Ê¥ÎäÊ¿" checked><label for="cl5">Ê¥ÎäÊ¿</label>
-<input type="checkbox" id="cl6" name="class" value="ÓÎÏÀ" checked><label for="cl6">ÓÎÏÀ</label>
-<input type="checkbox" id="cl7" name="class" value="ÊõÊ¿" checked><label for="cl7">ÊõÊ¿</label>
-<input type="checkbox" id="cl8" name="class" value="·¨Ê¦" checked><label for="cl8">·¨Ê¦</label>
-<input type="checkbox" id="cl9" name="class" value="Ä§ÆõÊ¦" checked><label for="cl9">Ä§ÆõÊ¦</label>
-<input type="checkbox" id="cl10" name="class" value="ÆäËû" checked><label for="cl10">ÆäËû</label>
-<BR><b>À´Ô´£º</b>
-<button onclick="select_all('book')">È«Ñ¡</button>
+<b>ç‰¹æ®Šï¼š</b>
+<button onclick="select_all('special')">å…¨é€‰</button>
+<input type="checkbox" id="sp0" name="special" value="ä¸“æ³¨" checked><label for="sp0">C</label>
+<input type="checkbox" id="sp1" name="special" value="ä»ªå¼" checked><label for="sp1">R</label>
+<input type="checkbox" id="sp2" name="special" value="è¨€è¯­" checked><label for="sp2">V</label>
+<input type="checkbox" id="sp3" name="special" value="å§¿åŠ¿" checked><label for="sp3">S</label>
+<input type="checkbox" id="sp4" name="special" value="ææ–™" checked><label for="sp4">M</label>
+<input type="checkbox" id="sp5" name="special" value="ä»·è€—" checked><label for="sp5">M*</label>
+<br><b>ç¯é˜¶ï¼š</b>
+<button onclick="select_all('level')">å…¨é€‰</button>
+<input type="checkbox" id="le0" name="level" value="æˆæ³•" checked><label for="le0">é›¶</label>
+<input type="checkbox" id="le1" name="level" value="ä¸€ç¯" checked><label for="le1">ä¸€</label>
+<input type="checkbox" id="le2" name="level" value="äºŒç¯" checked><label for="le2">äºŒ</label>
+<input type="checkbox" id="le3" name="level" value="ä¸‰ç¯" checked><label for="le3">ä¸‰</label>
+<input type="checkbox" id="le4" name="level" value="å››ç¯" checked><label for="le4">å››</label>
+<input type="checkbox" id="le5" name="level" value="äº”ç¯" checked><label for="le5">äº”</label>
+<input type="checkbox" id="le6" name="level" value="å…­ç¯" checked><label for="le6">å…­</label>
+<input type="checkbox" id="le7" name="level" value="ä¸ƒç¯" checked><label for="le7">ä¸ƒ</label>
+<input type="checkbox" id="le8" name="level" value="å…«ç¯" checked><label for="le8">å…«</label>
+<input type="checkbox" id="le9" name="level" value="ä¹ç¯" checked><label for="le9">ä¹</label>
+<br><b>å­¦æ´¾ï¼š</b>
+<button onclick="select_all('school')">å…¨é€‰</button>
+<input type="checkbox" id="sc1" name="school" value="é˜²æŠ¤" checked><label for="sc1">é˜²æŠ¤</label>
+<input type="checkbox" id="sc2" name="school" value="å’’æ³•" checked><label for="sc2">å’’æ³•</label>
+<input type="checkbox" id="sc3" name="school" value="é¢„è¨€" checked><label for="sc3">é¢„è¨€</label>
+<input type="checkbox" id="sc4" name="school" value="æƒ‘æ§" checked><label for="sc4">æƒ‘æ§</label>
+<input type="checkbox" id="sc5" name="school" value="å¡‘èƒ½" checked><label for="sc5">å¡‘èƒ½</label>
+<input type="checkbox" id="sc6" name="school" value="å¹»æœ¯" checked><label for="sc6">å¹»æœ¯</label>
+<input type="checkbox" id="sc7" name="school" value="æ­»çµ" checked><label for="sc7">æ­»çµ</label>
+<input type="checkbox" id="sc8" name="school" value="å˜åŒ–" checked><label for="sc8">å˜åŒ–</label>
+<br><b>èŒä¸šï¼š</b>
+<button onclick="select_all('class')">å…¨é€‰</button>
+<input type="checkbox" id="cl1" name="class" value="å¥‡æ¢°å¸ˆ" checked><label for="cl1">å¥‡æ¢°å¸ˆ</label>
+<input type="checkbox" id="cl2" name="class" value="åŸæ¸¸è¯—äºº" checked><label for="cl2">åŸæ¸¸è¯—äºº</label>
+<input type="checkbox" id="cl3" name="class" value="ç‰§å¸ˆ" checked><label for="cl3">ç‰§å¸ˆ</label>
+<input type="checkbox" id="cl4" name="class" value="å¾·é²ä¼Š" checked><label for="cl4">å¾·é²ä¼Š</label>
+<input type="checkbox" id="cl5" name="class" value="åœ£æ­¦å£«" checked><label for="cl5">åœ£æ­¦å£«</label>
+<input type="checkbox" id="cl6" name="class" value="æ¸¸ä¾ " checked><label for="cl6">æ¸¸ä¾ </label>
+<input type="checkbox" id="cl7" name="class" value="æœ¯å£«" checked><label for="cl7">æœ¯å£«</label>
+<input type="checkbox" id="cl8" name="class" value="æ³•å¸ˆ" checked><label for="cl8">æ³•å¸ˆ</label>
+<input type="checkbox" id="cl9" name="class" value="é­”å¥‘å¸ˆ" checked><label for="cl9">é­”å¥‘å¸ˆ</label>
+<input type="checkbox" id="cl10" name="class" value="å…¶ä»–" checked><label for="cl10">å…¶ä»–</label>
+<BR><b>æ¥æºï¼š</b>
+<button onclick="select_all('book')">å…¨é€‰</button>
 <input type="checkbox" id="bk1" name="book" value="PHB24" checked><label for="bk1">PHB24</label>
 <input type="checkbox" id="bk2" name="book" value="PHB14" checked><label for="bk2">PHB14</label>
 <input type="checkbox" id="bk3" name="book" value="XGE" checked><label for="bk3">XGE</label>
@@ -220,8 +220,8 @@ function toggleVisibility() {
 </div>
 <HR style="HEIGHT: 2px; COLOR: #b79c61">
 <table style="TEXT-ALIGN: center;BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=2 border=0>
-<tr><td><b>·¨ÊõÃû</b></td><td width=120><b>»·½×</b></td><td width=60><b>Ñ§ÅÉ</b></td><td><b>Ö°Òµ</b></td><td><b>ÑÔÓï</b></td><td><b>×ËÊÆ</b></td><td><b>²ÄÁÏ</b></td><td><b>ÒÇÊ½</b></td><td><b>×¨×¢</b></td><td><b>À´Ô´</b></td></tr>
-{{ÄÚÈİ}}
+<tr><td><b>æ³•æœ¯å</b></td><td width=120><b>ç¯é˜¶</b></td><td width=60><b>å­¦æ´¾</b></td><td><b>èŒä¸š</b></td><td><b>è¨€è¯­</b></td><td><b>å§¿åŠ¿</b></td><td><b>ææ–™</b></td><td><b>ä»ªå¼</b></td><td><b>ä¸“æ³¨</b></td><td><b>æ¥æº</b></td></tr>
+{{å†…å®¹}}
 </table>
 </body>
 </html>
